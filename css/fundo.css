@@ -1,0 +1,13 @@
+body {
+ /* background-image:url(imagens/fundo/06.jpg);  */
+  background-size:100%; 
+ 
+ background-position: 0;
+
+}
+
+#corpocadastro, #corpocontato,#index,#ambiente,#equipe,#pagcalca,#pagcamisa,
+#pgresultado,#usuario
+{
+    background: #fff; 
+}

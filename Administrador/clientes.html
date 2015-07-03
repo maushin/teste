@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Clientes</title>
+
+    <meta charset="UTF-8">
+    <!-- abaixo um meta para ser encontrado pelo google-->
+    <meta name="description" content="combinações de suas roupas acessando esse site">
+    <!-- adicionado o favícon para a página-->
+     <link rel="icon"  href="../imagens/logos/fav2.png">
+       <!--A linha abaixo faz a linkagem para estilização do bootstrap-->
+    <link href="../bootstrap-3.3.4-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    
+    <!-- linha abaixo faz chamada primeiro para jquery e depois para bootstrap -->
+    <script src="../js/jquery.min.js" type="text/javascript"></script>
+    <script src="../bootstrap-3.3.4-dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- linha abaixo faz linkagem com a estilização de fundo e estilo próprio -->
+    <link href="../fundo.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/formulario.css" rel="stylesheet" type="text/css"/>
+    <link href="../bootstrap-3.3.4-dist/css/estilo.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+            
+        
+       <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Botão de menu para mobiles ou quando remendisionar a pagina -->
+    <div class="navbar-header">
+         <a  href= "index.html" > 
+        <img class="logo img-thumbnail img-responsive" src="../imagens/logos/6.png" alt=" logotipo Look To me"/>
+        
+              </a> 
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <!-- <a class="navbar-brand" href="#">Look To Me</a> -->
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+       <li class="active"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="projeto.php">Projeto</a></li>
+        <li><a href="equipe.php">Equipe</a></li>
+        <li><a href="contato.php">Contato</a></li>
+        
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../">Logout</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+ </div><!-- /.container-fluid -->
+</nav> 
+    <form method="post" id="fContato" action="">
+        <fieldset  id="cadCliente"><legend>Cadastro de clientes</legend>
+            
+            <div class="formulario">
+            <label class="espan" for= "cEmpresa" > Razão Social:</label> 
+            <input  type= "text" name="txtEmpresa"    id= "cEmpresa" size="50" maxlength="50" placeholder= "" >
+            
+             <label class="espan" for= "cFantasia" > Nome Fantasia:</label> 
+            <input  type= "text" name="txtFantasia"    id= "cFantasia" size="50" maxlength="50" placeholder= "" >
+ 
+            <label class="espan"  for= "cCnpj" > CNPJ:</label> 
+            <input  type= "text" name="txtCnpj"  id= "cCnpj" size="14" maxlength="16"  placeholder= "00.000.000/0000-00" > 
+
+           <label class="espan" for= "cemailE" > E-mail da Empresa:   </label>   
+            <input  type= "text" name="txtEmailE"  id= "cemailE"  size="29" maxlength="50" placeholder= "" > 
+            
+             <label class="espan" for= "cSite" > Site: </label>   
+            <input  type= "text" name="txtSite"  id= "cSite"  size="45" maxlength="50" placeholder= "" > 
+
+            <label class="espan" for= "cContato1" > Telefone 1:</label> 
+            <input  type= "text"  name="txtcontato1"  id= "cContato1" size="17" maxlength="20" placeholder= "" > 
+            <label class="espan" for= "cContato2" > Telefone 2:</label> 
+            <input  type= "text"  name="txtcontato2"  id= "cContato2" size="17" maxlength="20" placeholder= "" >
+            
+           <label class="espan" for="cFax"> FAX:</label>
+            <input type="text" name="txtFAx"  id="cFAx" size="15" maxlength="17">
+
+
+            <label class="espan" for ="cEstado">Estado:</label>
+            <select name="txtEstado" id="cEstado">
+
+                <optgroup  label="Região Sudeste">
+                    <option value="SP"> São Paulo</option>
+                    <option value="RJ"> Rio de Janeiro </option>
+                    <option value="ES"> Espírito Santo </option>
+                    <option value="MG"> Minas Gerais </option>
+                </optgroup>
+                <!--
+      20 - São Paulo (SP) = São Paulo
+     21 - Rio de Janeiro (RJ) = Rio de Janeiro
+     22 - Espírito Santo (ES) = Vitória
+     23 - Minas Gerais (MG) = Belo Horizonte-->
+                <optgroup label="Região Sul">
+                    <option value="PR"> Paraná  </option>
+                    <option value="RS"> Rio Grande do Sul </option>
+                    <option value="SC"> Santa Catarina  </option>
+                </optgroup>
+                <!--  Região Sul – 03 estados
+           
+           24 - Paraná (PR) = Curitiba  
+           25 - Rio Grande do Sul (RS) = Porto Alegre
+           26 - Santa Catarina (SC) = Florianópolis-->
+                <optgroup label="Região Centro-Oeste">
+                    <option value="MT"> Mato Grosso</option>
+                    <option value="MS"> Mato Grosso do Sul </option>
+                    <option value="GO"> Goiás</option>
+                </optgroup>
+                <!--    Região Centro-Oeste – 03 estados
+         
+         17 - Mato Grosso (MT) = Cuiabá
+         18 - Mato Grosso do Sul (MS) = Campo Grande
+         19 - Goiás (GO) = Goiânia -->
+                <optgroup label="Região Nordeste">
+                    <option value="MA"> Maranhão </option>
+                    <option value="PI"> Piauí </option>
+                    <option value="CE"> Ceará </option>
+                    <option value="RN"> Rio Grande </option>
+                    <option value="PE"> Pernambuco  </option>
+                    <option value="PB"> Paraíba</option>
+                    <option value="SE"> Sergipe </option>
+                    <option value="AL"> Alagoas </option>
+                    <option value="BA"> Bahia </option>
+                </optgroup>
+                <!-- Região Nordeste – 09 estados
+          
+          8 - Maranhão (MA) = São Luiz
+          9 - Piauí (PI) = Teresina
+          10 - Ceará (CE) = Fortaleza
+          11 - Rio Grande do Norte (RN) = Natal
+          12 - Pernambuco (PE) = Recife
+          13 - Paraíba (PB) = João Pessoa
+          14 - Sergipe (SE) = Aracaju
+          15 - Alagoas (AL) = Maceió
+          16 - Bahia (BA) = Salvador-->
+                <optgroup label="Região Norte">
+                    <option value="AM"> Amazonas </option>
+                    <option value="RR"> Roraima  </option>
+                    <option value="AP"> Amapá </option>
+                    <option value="PA"> Pará  </option>
+                    <option value="TO"> Tocantins</option>
+                    <option value="RO"> Rondônia </option>
+                    <option value="AC"> Acre </option>
+                </optgroup>
+                <!--   Região Norte – 07 estados
+     
+     1 - Amazonas (AM) = Manaus
+     2 - Roraima (RR) = Boa Vista
+     3 - Amapá (AP) = Macapá
+     4 - Pará (PA) = Belém
+     5 - Tocantins (TO) = Palmas
+     6 - Rondônia (RO) = Porto Velho
+     7 - Acre (AC) = Rio Branco-->
+            </select>
+            <label class="espan"  for ="cCidade">Cidade:</label>
+            <input type="text" name="txtCidade" id="cCidade" size="30" maxlength="50" placeholder="">
+            
+            <label class="espan"  for ="cBairro">Bairro:</label>
+            <input type="text" name="txtBairro" id="cBairro" size="58" maxlength="70" placeholder="">
+            
+            <label class="espan" for="cCep"> CEP</label>
+            <input type="text" name="txtCep"  id="cCEp" size="11" maxlength="15">
+            
+            <label class="espan"  for ="cEndereco">Endereço:</label>
+            <input type="text" name="txtEndereco" id="cEndereco" size="75" maxlength="80" placeholder="">
+            
+                       
+            <label class="espan" for="cRepresentante"> Representante</label>
+            <input type="text" name="txtRepresentante"  id="cRepresentante" size="28" maxlength="50">
+            
+             <label class="espan" for= "cContatoRe" > Telefone do representante:</label> 
+            <input  type= "tel"  name="txtcontatoRe"  id= "cContatoRe" size="15" maxlength="20" placeholder= "" >
+           
+            <label class="espan" for= "cEmailR" > Email: </label> 
+            <input  type= "email"  name="txtEmailR"   id= "cEmailR" size="29" maxlength="50" placeholder= "" >
+            
+               <label class="espan" for="cNasc"> Data de Cadastro:</label>
+            <input type="date" name="txtNasc"  id= "cNasc">
+             
+
+        <!-- txtEmpresa
+             txtCnpj
+             txtEmailE
+             txtSite
+             txtlocal
+             txtrepresentante
+             txtEmailR
+             txtcontatoR-->
+            </div>
+        </fieldset>
+        
+        
+        
+        
+    </form>
+        
+        <h1 class="text-muted"> Clientes </h1>
+        <footer class="footer">
+        <p>&LookTome; Company 2015</p>
+      </footer>
+    </body>
+</html>

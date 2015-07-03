@@ -1,0 +1,22 @@
+style
+masque
+topsecret
+
+<a href="http://br.freepik.com/vetores-gratis/pessoas-de-coleta-avatars_777191.htm">Projetado pelo Freepik</a>
+
+desenhar:http://www.shutterstock.com/cat.mhtml?searchterm=farol&language=pt&pl=39422-43068&irgwc=1
+
+
+social:
+<div class="social-bookmarks">                    
+        <ul>
+                            <li style="background-color: #333333" class="facebook"><a target="_blank" href="http://facebook.com/iconkacom">facebook</a></li>
+                                <li style="background-color: #333333" class="behance"><a target="_blank" href="http://behance.com/iconka">behance</a></li>
+                                <li style="background-color: #333333" class="dribbble"><a target="_blank" href="http://dribbble.com/iconka">dribbble</a></li>
+                                <li style="background-color: #333333" class="linkedin"><a target="_blank" href="http://www.linkedin.com/profile/view?id=35584813">linkedin</a></li>
+                                <li style="background-color: #333333" class="twitter"><a target="_blank" href="http://twitter.com/IconkaCom">twitter</a></li>
+                                <li style="background-color: #333333" class="googleplus"><a target="_blank" href="http://plus.google.com/118144614391999397764">googleplus</a></li>
+                                <li style="background-color: #333333" class="pinterest"><a target="_blank" href="http://pinterest.com/iconka">pinterest</a></li>
+                                        
+        </ul><!-- END UL-->
+    </div>
