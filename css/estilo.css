@@ -131,15 +131,20 @@ input,.espan,#cCidade{
 }
 label button,.btn btn-default,
 .btn btn-default btn-lg, .btn-default {
-    color: orangered;
+    color: #EE5A2E ;
     max-width: 100%;
-    margin: 10px 8px 0px 0px;
-    padding: 10px;
+    margin: 10px 12px 0px 2px;
+    padding:11px;
 
 
 }
 
-/* Estilização do formulário e todos os botões*/
+/* Estilização do formulário usuario e todos os botões*/
+.editbotao {
+
+    padding: 0px 5px 0px 2px;
+
+}
 #Cadusuario,#Contusuario
 {
     border-radius: 7px;
@@ -163,6 +168,7 @@ legend{
 .footer{
     border: solid #000
 }
+/* edição na pagina de contato */
 .socialico li {
     list-style-type:none;
     display: inline-block;
@@ -175,10 +181,8 @@ legend{
     width: 350px;
     max-width: 100%;
 }
+/* fim edição pagiana contato*/
 
-body{
-
-}
 /*centralização da caixa de login*/
 #autenticar{
     position: relative;
@@ -189,19 +193,63 @@ body{
 }
 #autenticar input{
     padding: 8px 0px 5px 5px; 
-    width: 340px; 
+    width: 300px; 
     max-width:95%;
-   
 }
-#textoprojeto {
-    background: black;
-    border: solid black;
-     margin: 80px 150px 0px 150px ;
-     padding: 12px;
-     font-size: 20px;
-     font-family: Verdana;
-    color: white;
-     
-        
+/*Estilizarção da página projeto.php*/
+
+#container-projeto {
+
+    padding: 0px 20px 0px 20px;
+    margin: auto;
+    max-width: 978px;
+
 }
 
+#textoprojeto h3 {
+
+    font-size: 20px;
+    font-family: arial,sans-serif;
+
+
+
+}
+#textoprojeto {
+    font-size: 17px; 
+      font-family: arial,sans-serif;
+
+}
+
+#citacao {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+    color:  #777;
+    border-left: none;
+
+}
+
+#sobre-equipe ul {
+    margin: 13px auto;
+    text-align: center;
+    list-style-type:none;
+
+}
+#sobre-equipe a {
+    color: #F38734;
+}
+.principio{
+  border: 1px solid #000; 
+  float: left;
+  margin-left: 2.1322315%;
+  margin-right: 0;
+  width: 30.5785131%;
+  padding: 0px 1px 0px 5px;
+
+}
+
+
+
+/*fonte do projeto*/

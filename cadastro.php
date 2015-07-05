@@ -23,7 +23,7 @@ and open the template in the editor.
      <link href="bootstrap-3.3.4-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
      <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
      <link href="css/fundo.css" rel="stylesheet" type="text/css"/>
-     <link href="css/formulario.css" rel="stylesheet" type="text/css"/>
+   
     </head>
 <?php
 $conexao = mysql_connect('localhost', 'root', '');
@@ -97,20 +97,16 @@ mysql_query('SET character_set_results=utf8');
             <label class="espan" for= "ccoSenha" > Confirmação de Senha</label> 
             <input  type= "password"  name="txtcSenha"  id= "ccoSenha" size="8" maxlength="50" placeholder= "" > 
 
-
-            <br>
             <label class="espan" for= "cNome" > Nome </label>   
             <input  type= "text" name="txtNome"  id= "cNome"  size="20" maxlength="50" placeholder= "Nome completo" > 
             
             <label class="espan" for= "cSobrenome" > Sobrenome </label>   
             <input  type= "text" name="txtSobrenome"  id= "cSobrenome"  size="20" maxlength="50" placeholder= "Sobrenome" > 
-
+ 
 
             <label class="espan" for= "cEmail" > Email </label> 
             <input  type= "email"  name="txtEmail"   id= "cEmail" size="20" maxlength="45" placeholder= "digite o seu email" > 
-            <br>
-           
-
+            
 
             <label id="btnCadastro"> 
                 <input type="hidden" name="acao" value="enviado"/>  

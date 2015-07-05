@@ -43,10 +43,10 @@ a{
 
 input {
   
-    border-radius: 7px;
+    
     font-size: 15px;
     padding: 10px 10px 5px 0px;
-    border: 1px solid #000;
+    border-radius: 7px;
     margin: 20px auto;
     max-width: 100%;
   
@@ -55,8 +55,20 @@ input {
 .espan {
     padding: 0px 5px 0px 10px;
      font-size: 16px;
+     
     
-}          
+}  
+/* 
+input,.espan,#cCidade{
+
+    margin: 1px 0px 3px 0px;
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 9px 0px 5px 0px;
+    display: block;
+    width: 100%;
+}
+*/
              
             
 legend{
@@ -70,4 +82,4 @@ legend{
     border-radius: 7px;
     margin: 10px;
     max-width: 100%;
-}
+} 

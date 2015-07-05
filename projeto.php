@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
      <head>
         
-        <title>Look to me</title>
+        <title>Sobre o Look to me</title>
         <!-- linha abaixo cria responsive para movel-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
@@ -25,7 +25,6 @@ and open the template in the editor.
     </head>
     
     <body>
-        
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js" type="text/javascript"></script>
         <!-- menu superior-->
@@ -56,7 +55,7 @@ and open the template in the editor.
         <li><a href="contato.php">Contato</a></li>
        
       </ul>
-      
+    
       <ul class="nav navbar-nav navbar-right">
         
           <li><a href="cadastro.php"><span class="glyphicon glyphicon-user"></span> Cadastro</a></li>
@@ -67,12 +66,32 @@ and open the template in the editor.
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>   
-        <div id="textoprojeto">
-        <article>  
+        <!--Abaixo esqueleto e texto sobre o projeto --> 
+        
+        <div  id="imagem-logo"> </div>
+        <div id="container-projeto" role="main" >
+       <div id="sobre-equipe">
+           <blockquote id="citacao">
+          A missão do Look To Me é...
+        </blockquote>
+        <ul>
             
-           
-
-O Look To Me,  é uma ferramenta para auxiliar Homens a se vestir, para qualquer tipo de 
+          <li>
+              <a href="equipe.php">Equipe e Gerenciamento</a>
+          </li>
+                 </ul>
+      </div>
+        
+         
+        
+        <div id="textoprojeto">
+            
+           <h3>
+            Como Ajudar o usuário em grande estilo
+          </h3>
+        <article>  
+        
+<p>O Look To Me,  é uma ferramenta para auxiliar o público masculino a se vestir, para qualquer tipo de 
 
 evento, ou qualquer “Drees Code”.<br>
 
@@ -94,10 +113,42 @@ peças de nossos Parceiros.
 
 Quem são nossos parceiros?
 
-Lojas de roupas, calçados, underwear e acessórios masculinas
-           
-        </article>
+Lojas de roupas, calçados, underwear e acessórios masculinas </p>
+          </article>
+            
+            <div class="principio">
+            <h3>
+              Mensagem Missão
+            </h3>
+            <p>
+             lorem texto texto texto texto texto texto
+             texto texto texto texto texto texto
+             texto texto texto texto texto texto
+            </p>
+          </div>
+            
+            <div class="principio">
+            <h3>
+              Mensagem Visão
+            </h3>
+            <p>
+             lorem texto texto texto texto texto texto texto texto texto texto texto texto 
+             
+             texto texto texto texto texto texto
+            </p>
+          </div>
+            <div class="principio">
+            <h3>
+              Mensagem Valor
+            </h3>
+            <p>
+             lorem texto texto texto texto texto texto
+             texto texto texto texto texto texto
+             texto texto texto texto texto texto
+            </p>
+          </div>
+            </div>
              </div>
-       
+    
     </body>
-</html>
+</html> 

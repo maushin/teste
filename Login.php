@@ -99,7 +99,8 @@ Aplicação BootStrap utilizar o Downloadfornecido do site:
                                id="senha"
                                placeholder="">
                     </label>
-
+                    <div class="editbotao"
+                        
                     <label> 
                         <input type="hidden" name="acao" value="login"/> 
                         <button type="submit"  class="btn btn-default btn-lg">
@@ -114,6 +115,7 @@ Aplicação BootStrap utilizar o Downloadfornecido do site:
                             </button>
                         </a>
                     </label>
+                </div>
                 </fieldset>
 
             </div>
