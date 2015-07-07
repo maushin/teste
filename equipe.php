@@ -68,42 +68,198 @@ and open the template in the editor.
   </div><!-- /.container-fluid -->
 </nav>   
         <!-- artigo do site -->
-        <section class="quadro">
-        <p> A equipe é composta por  alunos com os tipos de perfis que são:</p>
+        
+        
        
+        <div id="container-projeto">
+          <h2 id="subtitulo">
+            Membros 
+          </h2>
+    
+         
+              <div class="equipe_profile"> 
+              <img alt="Maurício Dias de Andrade" src="imagens/equipe/eu-1.png">
+            
+              <h3 id="subtitulo">
+                Maurício Dias de Andrade <span></span>
+              </h3>
+              <p>
+                Idealizador e criador do programa Look To Me, junto com a sua equipe, realiza
+                o gerenciamento e o progresso da estrutura do programa.</p>
+                
+           
+              </p>
+              <p>
+                  Maurício é formado em curso técnico de informática pela FIAP, atuou
+                  como Analista de suporte antes de seguir a carreira de programador.</p>
+                 
+              <p>Atuação nesse projeto:</p>
+              <ul type="square">
+          
+            <li>Gerente de Projeto</li>
+            <li>Designer</li>
+            <li> Front End</li>
+            <li>  Back End</li>
+                </ul>
+                
+              </p>
+            
+              <p>
+                <a href="//plus.google.com/+LarryPage" target="_blank">Mauríco no Linkedin</a>
+              </p>
+              
+            </div>
+              <!--
         <ul type="square">
-            <!--
+          
             unordered list
             type=disc - padrão bolinha
             type=circle- bolinha vazia
-            type=square- quadrado-->
+            type=square- quadrado
             
             <li>Gerente de Projeto</li>
             <li>Designer</li>
             <li> Front End</li>
             <li>  Back End</li>
                 </ul>
-        <p>O gerente de projeto terá as seguintes funcões
+        <p>O gerente de Tem as seguintes funcões
         </p>
         
         <ol type="I">
-            <!--
+           
             ordered list
             Alguns atributos do type são:
             type="1" - padrão em números
             type="A" - ordem alfabetica em maiúsculo
             type="a" - ordem alfabetica em minúsculo
-            type="I" -  Algarismo romano-->
+            type="I" -  Algarismo romano
             <li>Criação do <a href="#">Escopo</a> do Projeto</li>
             <li>Acompanamento do <a href="#" >Cronograma</a></li>
             <li>Acompanhamento da Documentação</li>
             <li>Contato com <a href="#"> time</a></li>
-             <li>final</li>
+             <li>final</li> -->
             
-        </ol>
-         
-        </section>
+       
+        
+              
+              
+              
+        <div class="equipe_profile"> 
+              <img alt=" " src="imagens/equipe/.png">
+            
+              <h3 id="subtitulo">
+               Hely 
+              </h3>
+              <p>
+                
+                
            
+              </p>
+              <p>
+                 
+                
+              </p>
+            
+              <p>
+                <a href="//plus.google.com/+LarryPage" target="_blank">Hely no linkedin</a>
+              </p>
+              
+            </div>
+           <!--    -->
+              <div class="equipe_profile"> 
+              <img alt=" " src="imagens/equipe/.png">
+            
+              <h3 id="subtitulo">
+               Marcelo
+              </h3>
+              <p>
+                
+                
+           
+              </p>
+              <p>
+                 
+                
+              </p>
+            
+              <p>
+                <a href="//plus.google.com/+LarryPage" target="_blank">Marcelo no linkedin</a>
+              </p>
+              
+            </div>
+           
+            <!--    -->
+              <div class="equipe_profile"> 
+              <img alt=" " src="imagens/equipe/.png">
+            
+              <h3 id="subtitulo">
+           Maria
+              </h3>
+              <p>
+                
+                
+           
+              </p>
+              <p>
+                 
+                
+              </p>
+            
+              <p>
+                <a href="//plus.google.com/+LarryPage" target="_blank">Maria no linkedin</a>
+              </p>
+              
+            </div>
+            
+             <!--    -->
+              <div class="equipe_profile"> 
+              <img alt=" " src="imagens/equipe/.png">
+            
+              <h3 id="subtitulo">
+            Alcir
+              </h3>
+              <p>
+                
+                
+           
+              </p>
+              <p>
+                 
+                
+              </p>
+            
+              <p>
+                <a href="//plus.google.com/+LarryPage" target="_blank">Alcir no linkedin</a>
+              </p>
+              
+            </div>
+              
+            <!--    -->
+              <div class="equipe_profile"> 
+              <img alt=" " src="imagens/equipe/.png">
+            
+              <h3 id="subtitulo">
+               Waldir
+              </h3>
+              <p>
+                
+                
+           
+              </p>
+              <p>
+                 
+                
+              </p>
+            
+              <p>
+                <a href="//plus.google.com/+LarryPage" target="_blank">Waldir no linkedin</a>
+              </p>
+              
+            </div>
+        
+           
+       
+        </div>
         
     </body>
 </html>

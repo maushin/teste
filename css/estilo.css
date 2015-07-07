@@ -206,7 +206,7 @@ legend{
 
 }
 
-#textoprojeto h3 {
+#textoprojeto, #subtitulo {
 
     font-size: 20px;
     font-family: arial,sans-serif;
@@ -252,4 +252,30 @@ legend{
 
 
 
-/*fonte do projeto*/
+/*formatação página equipe.php*/
+
+.equipe_profile {
+     border: 1px solid #F38734;
+    padding: 15px;
+     margin: 15px ;
+    width: 95.88%;
+    position: relative;
+   top: 10px;
+box-shadow: 1px 1px 4px black;
+box-sizing: border-box;
+overflow: hidden;
+    
+}
+
+.equipe_profile img {
+ float: right;
+  position: relative;
+  margin: auto;
+  width: 35.88%;
+   border: 1px solid #000;
+   
+	
+   
+ 
+}
+
