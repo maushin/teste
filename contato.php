@@ -36,9 +36,6 @@ mysql_query('SET character_set_results=utf8');
 
     <body id="corpocontato">   
         
-  
-
-
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js" type="text/javascript"></script>
         <!-- menu superior-->
@@ -63,7 +60,7 @@ mysql_query('SET character_set_results=utf8');
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-          <li class="active"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="projeto.php">Projeto</a></li>
         <li><a href="equipe.php">Equipe</a></li>
         <li><a href="contato.php">Contato</a></li>
@@ -81,21 +78,21 @@ mysql_query('SET character_set_results=utf8');
   </div><!-- /.container-fluid -->
 </nav>   
         <!-- criação de formulário de contato -->
-        <form>
+        <form  class="form-horizontal" method="post" id="fformulario" action="">
     
             <div class="box">
                 <fieldset  id="Contusuario"><legend>Envie sua opinião/sugestão </legend>
-                    <label for="cNome">Nome do usuário:</label>
-                    <input type="text" name="txtNome" id="cNome" size="20" maxlength="45" placeholder="Nome completo">
-
-                    <label class="espan" for="cEmail">Email:</label>
-                    <input type="text" class="espan" name="txtEmail" id="cEmail" size="20" maxlength="55" placeholder="exemplo@email.com" required="requerido">
-                    
-                    <label for="cMsg">Mensagem:</label>
+                    <label class="form-control" for="cNome">Nome do usuário:
+                    <input class="caixa" type="text" name="txtNome" id="cNome" size="20" maxlength="45" placeholder="Nome completo">
+</label>
+                    <label class="form-control" for="cEmail">Email:
+                    <input class="caixa" type="text" class="espan" name="txtEmail" id="cEmail" size="20" maxlength="55" placeholder="exemplo@email.com" required="requerido">
+                    </label>
+                    <label class="form-control" for="cMsg">Mensagem:
                     <textarea name="tMSg" class="espan" id="cMsg" cols="50" rows="4" placeholder="Deixe aqui sua mengagem">
-                         </textarea>
+                         </textarea></label>
 
-                    <label id="btncontato"> 
+                    <label  id="btncontato"> 
                         <button  type= "submit"  class="btn btn-default btn-lg">
                             <span class="glyphicon glyphicon-ok" aria-hidden="true" ></span> Enviar 
                         </button>

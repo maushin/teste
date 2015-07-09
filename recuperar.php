@@ -3,9 +3,6 @@
 Aplicação BootStrap utilizar o Downloadfornecido do site:
 -->
 
-
-
-
 <html>
     <head>
 
@@ -85,72 +82,30 @@ Aplicação BootStrap utilizar o Downloadfornecido do site:
 
             <div class="boxlogin">
                 
-                <fieldset id="autenticar"> <legend>Bem Vindo</legend>  
+                <fieldset id="autenticar"> <legend>Indentifique a sua conta</legend>
+                    
                     <div class="corpo">
                     <label class="form-control" for="login">
-                        <span class="espan">Login</span>
-                        <input type="text" name="txtlogin" id="login" placeholder="informe seu login">
+                        <span class="espan">Informe seu email</span>
+                        <input type="text" name="txtlogin" id="login" placeholder="seuemail@seuprovedor.com">
                     </label>
 
-                    <label class="form-control"  for="senha">
-                        <span class="espan">Senha</span>
-                        <input type="password" name="txtsenha" id="senha" placeholder="">
-                    </label>
+                    
 
                     <div class="editbotao"> 
                     <label>  
-                        <input class="form-control" type="hidden" name="acao" value="login"/> 
+                        <input class="form-control" type="hidden" name="acao" value="Enviar"/> 
                         <button type="submit"  class="btn btn-default btn-lg">
-                            <span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span> Look
+                            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Enviar
                         </button>
                     </label>
 
                     <label> 
-                        <a href= "pagcamisa.html"> 
-                            <button type="button" class="btn btn-default btn-lg">
-                                <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>Visitante
-                            </button>
-                        </a>
-                      
-                    </label>
-                        <label class="form-control"><a href="recuperar.php">Esqueceu sua senha?</a></label>
+                        
                     </div>
                     </div>
                 </fieldset>
             </div>
         </form>
-
-
-
-        <?php
-        //condição para confirmação  do hidden vai ser verdadeiro no envio de dados 
-        $conexao = mysql_connect('localhost', 'root', '');
-        $banco = mysql_select_db('looktome', $conexao);
-        if (!$conexao) {
-            die('Não foi possível conectar: ' . mysql_error());
-        }
-        $consulta = mysql_query("SELECT * FROM usuarios");
-        while ($resultado = mysql_fetch_array($consulta)) {
-            echo $resultado['login']; //ok
-            echo $resultado['senha'];
-        }
-        if (isset($_POST['btn btn-default btn-lg'])) {
-            //se clicar no botao login criará essas variaveis:
-            $login = $_POST['txtlogin'];
-            $senha = md5($_POST['txtsenha']);
-            $consulta = mysql_query("SELECT * FROM usuarios WHERE login='$login' AND senha='$senha'");
-            $resultado = mysql_num_rows($consulta);
-            if ($resultado > 0) {
-
-                header('Location:Administrador/restrito.php');
-            } else {
-                echo 'usuário ou senha incorreta';
-            }
-        }
-        ?>
-
-
-
-
     </body>
 </html>
